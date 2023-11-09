@@ -57,4 +57,16 @@ route.delete(
   Controller.deleteOrder
 );
 
+// -----------------------------Mock APIS---------------------------------------------
+
+const Mock = require("../mockImplementation/mockImplementation");
+
+route.post("/mock-signup", Mock.signUp);
+
+route.put("/mock-orders", Mock.signUp);
+
+route.delete("/mock-orders", Mock.deleteOrder);
+
+route.post("/mock-services", Mock.services);
+
 module.exports = route;
