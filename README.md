@@ -19,7 +19,7 @@ Environment setup:
 
 Normal Server:
 
-step 1: git clone https://github.com/WIN-Services/backend-interview.git/
+step 1: git clone https://github.com/madhusudhan890/Backend_Interview.git
 
 step 2: go into the project and run npm i (In case if nodemodules has not been there)
 
